@@ -4,7 +4,7 @@
 
 /* global google: true */
 
-L.Google = L.Class.extend({
+L.Google = L.Layer.extend({
 	includes: L.Mixin.Events,
 
 	options: {
